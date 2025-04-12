@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmarker</title>
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+          <!-- font awasome -->
+          <link rel="stylesheet" href="./CSS/all.min.css" />
+          <!-- bootstrap style sheet -->
+          <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+          <!-- main style sheet -->
+          <link rel="stylesheet" href="./CSS/style.css" />
+    
+</head>
+<body>
+    
+<section>
+<div class="container">
+    <div>
+        <h1 class=" head mx-auto">Bookmarker</h1>
+    </div>
+
+    <div class="line "></div>
+
+        <div>
+    <h2 class=" state text-center pt-4 ">  <i class="fa-solid fa-bookmark"></i>  Bookmark your favorite sites <i class="fa-solid fa-bookmark"></i> </h2> 
+        </div>
+
+<form class="mx-3">
+  <div class="my-4">
+    <label class="name fs-6 " for="bookmarkName"> <i class="fa-solid fa-file-signature"></i> Site Name</label>
+    <br/>
+    <input type="text" id="bookmarkName" placeholder="Bookmark Name" autocomplete="off" class="form-control my-2" oninput="validateName()" />
+  </div>
+    
+<div>
+    <label class="name" for="bookmarkURL"> <i class="fa-solid fa-link"></i> Site URL </label>
+    <br/>
+    <input type="text" id="bookmarkURL" placeholder="Website URL" autocomplete="off" class=" form-control  my-2"  oninput="validateURL()" />
+</div>
+
+<div class="text-center d-flex justify-content-center align-items-center mt-4">
+    <button  type="button" class="btn btn-danger px-5" onclick="addBookmark()">Submit</button>
+</div>
+</form>
+   
+<div class="line my-4 "></div>
+
+<table>
+    <tr>
+      <th>Index</th>
+      <th>Website Name</th>
+      <th>Visit</th>
+      <th>Delete</th>
+    </tr>
+    <tbody id="tableBody"></tbody>
+</table>
+
+</div>
+</section>
+<!-- bootstrap JS file -->
+ <script src="./JS/bootstrap.bundle.min.js"></script> 
+ <script src="./JS/index.js"></script>
+</body>
+</html>
