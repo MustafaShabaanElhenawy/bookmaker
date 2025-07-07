@@ -2,8 +2,7 @@
 
 A simple bookmarking web application that allows users to save, visit, and delete their favorite websites, Includes form validation and stores data using localStorage.
 
-## Live Demo  
-https://bookmaker-jet.vercel.app/
+---
 
 ## Features  
 - Add, visit, and delete bookmarks  
@@ -11,11 +10,15 @@ https://bookmaker-jet.vercel.app/
 - Saves data using localStorage  
 - Clean and responsive layout
 
+  ---
+
 ## Technologies Used  
 - HTML  
 - CSS (Bootstrap)  
 - JavaScript  
 - localStorage
+
+  ---
 
 ## How to Run the Project  
 
@@ -25,7 +28,7 @@ https://bookmaker-jet.vercel.app/
 
 ---
 
-Contact
+## Contact
 
 - GitHub: https://github.com/MustafaShabaanElhenawy  
 - LinkedIn: www.linkedin.com/in/mustafa-elhenawy-31577b292
