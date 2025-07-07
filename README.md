@@ -22,7 +22,7 @@ A simple bookmarking web application that allows users to save, visit, and delet
 
 ## How to Run the Project  
 
-- git clone https://github.com/MustafaShabaanElhenawy/bookmarker.git  
+- git clone https://github.com/MustafaShabaanElhenawy/bookmaker.git  
 - cd bookmarker  
 - open index.html
 
